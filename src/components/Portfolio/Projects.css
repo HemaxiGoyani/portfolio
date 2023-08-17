@@ -1,0 +1,127 @@
+.container__portfolio {
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    /* gap: 2.5rem; */
+}
+
+.project__list {
+    /* padding: 0 5rem; */
+    position: relative;
+    margin-top: calc(7rem * calc(1 - 0));
+    margin-bottom: calc(7rem * 0);
+}
+.portfolio__item {
+   display: flex;
+   flex-direction: row;
+}
+
+/* .portfolio__item:hover {
+    border-color: var(--color-primary-variant);
+    background: transparent;
+} */
+
+.portfolio__item-image {
+   
+    overflow: hidden;
+    width: 40%;
+}
+
+.portfolio__item-image img {
+    height: auto;
+    cursor: pointer;
+    vertical-align: middle;
+    border-radius: 0.5rem;
+}
+
+.portfolio__item-content {
+    margin-right: calc(3rem * 0);
+    margin-left: calc(3rem * calc(1 - 0));
+    width: 60%;
+}
+
+.portfolio__item-content-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portfolio__item-content-title h3 {
+    margin: 1.2rem 0;
+    color: var(--color-primary);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.portfolio__item-content-cta {
+    display: flex;
+    gap: 0.5rem;
+    /* margin-bottom: 1rem; */
+}
+
+.portfolio__item-content-cta-icon {
+    display: inline-flex;
+    color: var(--color-white);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    background:rgba(0, 0, 0, 0.3);
+    border-radius: 9999px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.portfolio__item-content-cta-icon:hover {
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
+
+.portfolio__item-content p {
+    letter-spacing: 0.025em;
+    margin-top: 0.75rem;
+}
+
+
+/***********************************
+Media Queries (Medium Devices)
+***********************************/
+
+@media screen and (max-width: 1024px) {
+    .container__portfolio {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+
+    .portfolio__item {
+        padding: 1.5rem;
+    }
+}
+  
+/***********************************
+Media Queries (small Devices)
+***********************************/
+@media screen and (max-width: 600px) {
+    .container__portfolio {
+        width: var(--container-width-sm);
+    }
+    .project__list{
+        margin-top: 1rem;
+    }
+    .portfolio__item {
+        flex-direction: column;
+     }
+
+    .portfolio__item-image {
+        width:100%;
+    }
+
+    .portfolio__item-content {
+        margin-left: 0;
+        margin-top: 1rem;
+        width: 100%;
+    }
+}
+  
