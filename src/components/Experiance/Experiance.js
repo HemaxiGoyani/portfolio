@@ -15,51 +15,51 @@ const Experiance = () => {
       <div className="container experiance__container">
         <ul>
           <li>
-            <FaPhp class="icon" />
+            <FaPhp className="icon" />
             <div>PHP</div>
           </li>
           <li>
-            <FaLaravel class="icon" />
+            <FaLaravel className="icon" />
             <div>Laravel</div>
           </li>
           <li>
-            <DiMysql class="icon" />
+            <DiMysql className="icon" />
             <div>MySQL</div>
           </li>
           <li>
-            <DiPostgresql class="icon" />
+            <DiPostgresql className="icon" />
             <div>PostgreSQL</div>
           </li>
           <li>
-            <FaReact class="icon" />
+            <FaReact className="icon" />
             <div>React</div>
           </li>
           <li>
-            <RiJavascriptFill class="icon" />
+            <RiJavascriptFill className="icon" />
             <div>JavaScript</div>
           </li>
           <li>
-            <AiFillHtml5 class="icon" />
+            <AiFillHtml5 className="icon" />
             <div>HTML</div>
           </li>
           <li>
-            <DiCss3 class="icon" />
+            <DiCss3 className="icon" />
             <div>CSS</div>
           </li>
           <li>
-            <BsBootstrapFill class="icon" />
+            <BsBootstrapFill className="icon" />
             <div>Bootstrap</div>
           </li>
           <li>
-            <DiJqueryLogo class="icon" />
+            <DiJqueryLogo className="icon" />
             <div>jQuery</div>
           </li>
           <li>
-            <AiFillGithub class="icon" />
+            <AiFillGithub className="icon" />
             <div>GitHub</div>
           </li>
           <li>
-            <FaAws class="icon" />
+            <FaAws className="icon" />
             <div>AWS</div>
           </li>
         </ul>

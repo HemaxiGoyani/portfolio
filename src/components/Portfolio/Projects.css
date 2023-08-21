@@ -21,7 +21,9 @@
 } */
 
 .portfolio__item-image {
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
     width: 40%;
 }
@@ -82,6 +84,7 @@
 .portfolio__item-content p {
     letter-spacing: 0.025em;
     margin-top: 0.75rem;
+    color: var(--color-light);
 }
 
 
@@ -90,13 +93,15 @@ Media Queries (Medium Devices)
 ***********************************/
 
 @media screen and (max-width: 1024px) {
-    .container__portfolio {
-        grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
-    }
+   
 
     .portfolio__item {
         padding: 1.5rem;
+    }
+
+    .project__list {
+        margin-top: calc(3rem * calc(1 - 0));
+        margin-bottom: calc(3rem * 0);
     }
 }
   

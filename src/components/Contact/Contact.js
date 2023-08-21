@@ -1,24 +1,9 @@
 import React from "react";
 import "./Contact.css";
 import { FaLinkedinIn } from "react-icons/fa";
-import { useRef } from "react";
-import emailjs from "emailjs-com";
+import ContactForm from "./ContactForm";
 
 const Contact = () => {
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs.sendForm(
-      "service_faa59ma",
-      "template_to6pzdb",
-      form.current,
-      "jpIw7wsLQ7erWqC09"
-    );
-
-    e.target.reset();
-  };
   return (
     <section data-section id="contact">
       <h5>Get In Touch</h5>
@@ -57,35 +42,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <form ref={form} onSubmit={sendEmail}>
-          <input
-            type="text"
-            name="name"
-            placeholder="Your Full Name"
-            required
-          />
-          <input
-            type="email"
-            name="email"
-            placeholder="Your Email Address"
-            required
-          />
-          <input
-            type="text"
-            name="subject"
-            placeholder="Your Subject"
-            required
-          />
-          <textarea
-            name="message"
-            rows="7"
-            placeholder="Your Message"
-            required
-          ></textarea>
-          <button type="submit" className="btn btn-primary">
-            Send Message
-          </button>
-        </form>
+        <ContactForm />
       </div>
     </section>
   );

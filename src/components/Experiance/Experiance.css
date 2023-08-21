@@ -93,6 +93,10 @@ Media Queries (Medium Devices)
     .experiance__content {
         padding: 1rem;
     }
+
+    .experiance__container ul li {
+        width: 30%
+    }
 }
   
 /***********************************
@@ -109,6 +113,6 @@ Media Queries (small Devices)
     }
 
     .experiance__container ul li {
-        width: 30%
+        width: 40%
     }
 }
