@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.9662a49f.css",
-    "main.js": "/static/js/main.8f52ecee.js",
+    "main.css": "/static/css/main.9cd69d9d.css",
+    "main.js": "/static/js/main.02131bcc.js",
     "static/js/787.a76b5059.chunk.js": "/static/js/787.a76b5059.chunk.js",
+    "static/media/hemaxi.png": "/static/media/hemaxi.80859f33cd50d1ad39cd.png",
     "static/media/candorivf.png": "/static/media/candorivf.6f2ac3ee84dff675348b.png",
     "static/media/hissa.png": "/static/media/hissa.f161befee47f5da246ca.png",
-    "static/media/me1.jpg": "/static/media/me1.2d05ed3c682bd42f1a9f.jpg",
     "static/media/dechcept.png": "/static/media/dechcept.4191f461a8a0dd9eec96.png",
-    "static/media/Hemaxi_Resume.pdf": "/static/media/Hemaxi_Resume.9e0e132f89603d31e109.pdf",
+    "static/media/Hemaxi_Goyani_Resume.pdf": "/static/media/Hemaxi_Goyani_Resume.4108b8b9aacf5d1d9671.pdf",
     "index.html": "/index.html",
-    "main.9662a49f.css.map": "/static/css/main.9662a49f.css.map",
-    "main.8f52ecee.js.map": "/static/js/main.8f52ecee.js.map",
+    "main.9cd69d9d.css.map": "/static/css/main.9cd69d9d.css.map",
+    "main.02131bcc.js.map": "/static/js/main.02131bcc.js.map",
     "787.a76b5059.chunk.js.map": "/static/js/787.a76b5059.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9662a49f.css",
-    "static/js/main.8f52ecee.js"
+    "static/css/main.9cd69d9d.css",
+    "static/js/main.02131bcc.js"
   ]
 }
