@@ -14,23 +14,18 @@ const Header = () => {
         <h1>Hemaxi Goyani</h1>
         <h3>Web Application Developer</h3>
         <h5 className="text-light header__container-content">
-          Specialized in designing, building and deploying Font-end and Back-end
-          Web Technologies. I am a believer of finding and solving real world
-          challenges by constantly learning and staying updated with latest
-          Technologies.{" "}
+          Specialized in designing, building and deploying Web Applications. I
+          am a believer of finding and solving real world challenges by
+          constantly learning and staying updated with latest Technologies.{" "}
         </h5>
         <CTA />
-
         <div className="me">
           <img src={ME} alt="me" />
         </div>
-
         <div className="me_mobile">
           <img src={ME} />
         </div>
-
         <HeaderSocials />
-
         <a href="#contact" className="scroll__down">
           {" "}
           Scroll Down{" "}

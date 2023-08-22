@@ -1,5 +1,4 @@
 import React from "react";
-import { BsGithub } from "react-icons/bs";
 import { FaGlobe } from "react-icons/fa";
 
 const ProjectsCard = ({ title, des, src, url }) => {

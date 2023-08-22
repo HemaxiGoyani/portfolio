@@ -11,8 +11,6 @@ const data = [
     image: IMG1,
     title: "Dechcept",
     demo: "https://dechcept.com/",
-    // description:
-    //   "I provided a tailored CMS, adapting to needs. Evolved site, added CRM with admin panel for efficient records management, ensuring project success.",
     description:
       "I designed a tailored CMS to fit client's needs, improved the website, and introduced a user-friendly CRM system with an admin panel. This streamlined record management, ensuring project success. Our commitment to adapting to changes and delivering excellence is evident in the customized CMS, enhanced site, and comprehensive CRM.",
   },
@@ -29,8 +27,6 @@ const data = [
     image: IMG3,
     title: "Hissa",
     demo: "https://hissaart.com/",
-    // description:
-    //   "I succeeded in addressing artists' challenges, creating a comprehensive website to showcase talents and engage a wider audience. Blogs, exhibitions, and events boosted recognition and opportunities.",
     description:
       "I delved into their circumstances, grasping their challenges, and initiated a website to empower them. It offered avenues for communication, talent promotion, and showcased their diverse artworks. A blog section allowed them to share personal insights, while exhibitions showcased their artistic prowess. An event area shared upcoming activities, facilitating engagement for those intrigued.",
   },
