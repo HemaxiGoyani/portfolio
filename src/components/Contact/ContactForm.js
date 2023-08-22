@@ -73,7 +73,9 @@ const ContactForm = () => {
   return (
     <form ref={form} onSubmit={sendEmail}>
       {isSumbmitted && (
-        <small className="error-text">Send your message successfully!</small>
+        <small className="error-text">
+          Received your message successfully!
+        </small>
       )}
       <input
         type="text"
