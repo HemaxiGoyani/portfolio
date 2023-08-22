@@ -3,6 +3,8 @@ import CTA from "./CTA";
 import ME from "../../assets/hemaxi.png";
 import HeaderSocials from "../HeaderSocials/HeaderSocials";
 import "./Header.css";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
+// import Img from "react-cloudinary-lazy-image";
 
 const Header = () => {
   return (
@@ -18,10 +20,16 @@ const Header = () => {
           Technologies.{" "}
         </h5>
         <CTA />
-        <HeaderSocials />
+
         <div className="me">
           <img src={ME} alt="me" />
         </div>
+
+        <div className="me_mobile">
+          <img src={ME} />
+        </div>
+
+        <HeaderSocials />
 
         <a href="#contact" className="scroll__down">
           {" "}

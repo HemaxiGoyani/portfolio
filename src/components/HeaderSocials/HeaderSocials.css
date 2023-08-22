@@ -20,6 +20,17 @@
   ***********************************/
   @media screen and (max-width: 600px) {
     .header__socials{
-     display: none;
+      display: flex;
+      flex-direction: row;
+      gap: 0.8rem;
+      position: unset;
+      bottom: 3rem;
+      margin: 0 auto;
+      justify-content: center;
+      margin-top: 2rem;
     }
+
+    .header__socials::after {
+      display: none;
+  }
   }
