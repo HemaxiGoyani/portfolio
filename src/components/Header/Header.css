@@ -4,26 +4,26 @@ header {
     overflow: hidden;
 }
 
-.header__container {
+.header__container  {
     text-align: center;
     height: 100%;
     position: relative;
 }
 
-.header__container-content {
+/* .header__container-content {
     padding: 1rem 10rem 0 10rem;
-}
-.me {
+} */
+.header__container .me {
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
-    /* height: 30rem; */
+    height: 30rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 0 1.5rem 0 1.5rem;
-    bottom: 0;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    /* bottom: 0; */
 }
 
 .me_mobile {
@@ -67,12 +67,14 @@ Media Queries (Medium Devices)
 
 @media screen and (max-width: 1024px) {
     header {
-        overflow: visible;
-        padding-top: 2.5rem;
+        /* overflow: visible;
+        padding-top: 2.5rem; */
+        /* height: 68vh; */
     }
 
     .me {
-        height: 20rem;
+        /* height: 18rem;
+        padding: 0 5.5rem 0 5.5rem; */
     }
   }
   
@@ -81,22 +83,22 @@ Media Queries (Medium Devices)
   ***********************************/
   @media screen and (max-width: 650px) {
     .header__container-content {
-        padding: 0.5rem 2rem 0 2rem;
+        /* padding: 0.5rem 2rem 0 2rem; */
     }
 
     header {
-     height: auto;
+     height: 100vh;
     }
   
     .scroll__down{
      display: none;
     }
 
-    .me {
+    /* .me {
        display: none;
-    }
+    } */
 
-    .me_mobile {
+    /* .me_mobile {
         display: block;
-    }
+    } */
   }
