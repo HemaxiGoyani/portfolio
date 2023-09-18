@@ -1,6 +1,7 @@
 import React from "react";
 import "./Experiance.css";
 import { BsBootstrapFill } from "react-icons/bs";
+import { SiTailwindcss, SiLivewire } from "react-icons/si";
 import { FaAws, FaLaravel, FaPhp, FaReact } from "react-icons/fa";
 import { RiJavascriptFill } from "react-icons/ri";
 import { DiPostgresql, DiMysql, DiCss3, DiJqueryLogo } from "react-icons/di";
@@ -31,6 +32,10 @@ const Experiance = () => {
             <div>PostgreSQL</div>
           </li>
           <li>
+            <SiLivewire className="icon" />
+            <div>Livewire</div>
+          </li>
+          <li>
             <FaReact className="icon" />
             <div>React</div>
           </li>
@@ -45,6 +50,10 @@ const Experiance = () => {
           <li>
             <DiCss3 className="icon" />
             <div>CSS</div>
+          </li>
+          <li>
+            <SiTailwindcss className="icon" />
+            <div>TailwindCSS</div>
           </li>
           <li>
             <BsBootstrapFill className="icon" />
