@@ -11,6 +11,7 @@
     "framer-motion": "^10.12.16",
     "react": "^18.2.0",
     "react-active-menu": "^0.0.14",
+    "react-cloudinary-lazy-image": "^1.3.4",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
     "react-scripts": "5.0.1",
