@@ -1,4 +1,4 @@
-import CV from "../../assets/Hemaxi_Goyani_Resume.pdf";
+import CV from "../../assets/hemaxi goyani resume.pdf";
 
 const CTA = () => {
   return (
