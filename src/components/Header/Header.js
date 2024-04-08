@@ -12,7 +12,9 @@ const Header = () => {
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Hemaxi Goyani</h1>
-        <h5 className="text-light">Web Application Developer</h5>
+        <h5 className="text-light">
+          Web Application Developer / Full Stack Developer
+        </h5>
         {/* <h5 className="text-light header__container-content">
           Specialized in designing, building and deploying Web Applications. I
           am a believer of finding and solving real world challenges by
